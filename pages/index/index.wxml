@@ -1,0 +1,10 @@
+<!--index.wxml-->
+<view class="container">
+	<view class="listGroup" wx:for='{{list}}' wx:for-item='group' wx:key='index'>
+		<view catchtap='navigateTo' data-url='{{row.url}}' class="listItem" wx:for='{{group}}' wx:for-item='row' wx:key='id'>
+			<image src="{{row.icon}}"></image>
+			<text>{{row.text}}</text>
+			<image src="/images/part3/arrow.png"></image>
+		</view>
+	</view>
+</view>
