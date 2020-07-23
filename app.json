@@ -2,6 +2,7 @@
    "pages": [
       "pages/index/index",
       "pages/wxWallet/wxWallet",
+      "pages/numberGuess/numberGuess",
       "pages/logs/logs"
    ],
    "window": {
