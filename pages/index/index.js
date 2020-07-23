@@ -15,8 +15,9 @@ Page({
 				},
 				{
 					id: 2,
-					text: '摇一摇',
-					icon: '/images/part3/shake.png'
+					text: '天气查询',
+					icon: '/images/part3/shake.png',
+					url: '/pages/weather/weather'
 				}
 			],
 			[{

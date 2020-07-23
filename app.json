@@ -3,6 +3,7 @@
       "pages/index/index",
       "pages/wxWallet/wxWallet",
       "pages/numberGuess/numberGuess",
+      "pages/weather/weather",
       "pages/logs/logs"
    ],
    "window": {
