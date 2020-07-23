@@ -5,12 +5,13 @@ Page({
 				id: 0,
 				text: '九宫格',
 				icon: '/images/part3/moments.png',
-				url:'/pages/wxWallet/wxWallet'
+				url: '/pages/wxWallet/wxWallet'
 			}],
 			[{
 					id: 1,
-					text: '扫一扫',
-					icon: '/images/part3/scan.png'
+					text: '猜数字游戏',
+					icon: '/images/part3/scan.png',
+					url: '/pages/numberGuess/numberGuess'
 				},
 				{
 					id: 2,
@@ -47,9 +48,9 @@ Page({
 			}],
 		]
 	},
-	navigateTo(e){
+	navigateTo(e) {
 		wx.navigateTo({
-			url:e.currentTarget.dataset.url
+			url: e.currentTarget.dataset.url
 		})
 	},
 	/**
