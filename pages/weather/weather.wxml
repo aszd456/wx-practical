@@ -3,20 +3,20 @@
 		<view>{{region}}</view>
 	</picker>
 	
-	<text>{{now.tmp}}℃ {{now.cond_txt}}</text>
+	<text>{{now.temp}}℃ {{now.text}}</text>
 	
-	<image src="/images/weather_icon/{{now.cond_code}}.png" mode="widthFix"></image>
+	<image src="/images/weather_icon/{{now.icon}}.png" mode="widthFix"></image>
 	
 	<view class="detail">
 		<view class="bar">
+			<view class="box">体感温度</view>
 			<view class="box">湿度</view>
 			<view class="box">气压</view>
-			<view class="box">能见度</view>
 		</view>
 		<view class="bar">
-			<view class="box">{{now.hum}}%</view>
-			<view class="box">{{now.pres}}</view>
-			<view class="box">{{now.vis}}</view>
+			<view class="box">{{now.feelsLike}}℃</view>
+			<view class="box">{{now.humidity}}%</view>
+			<view class="box">{{now.pressure}}</view>
 		</view>
 		<view class="bar">
 			<view class="box">风向</view>
@@ -24,9 +24,9 @@
 			<view class="box">风力</view>
 		</view>
 		<view class="bar">
-			<view class="box">{{now.wind_dir}}</view>
-			<view class="box">{{now.wind_spd}}km/h</view>
-			<view class="box">{{now.wind_sc}}级</view>
+			<view class="box">{{now.windDir}}</view>
+			<view class="box">{{now.windSpeed}}km/h</view>
+			<view class="box">{{now.windScale}}级</view>
 		</view>
 	</view>
 </view>
