@@ -28,7 +28,7 @@ Page({
 		var province = that.data.region[0]
 		var city = that.data.region[1]
 		var region = that.data.region[2]
-		if (region == '湘潭县') {
+		if (region == '湘潭县') { //一些特殊的要特别处理
 			region = city
 		}
 		wx.request({
