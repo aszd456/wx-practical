@@ -24,28 +24,33 @@ Page({
 					id: 3,
 					text: '电影预告片',
 					icon: '/images/part3/topStories.png',
-					url:'/pages/videoDemo/videoDemo'
+					url: '/pages/videoDemo/videoDemo'
 				},
 				{
 					id: 4,
-					text: '搜一搜',
-					icon: '/images/part3/search.png'
+					text: '我的书橱',
+					icon: '/images/part3/search.png',
+					url: '/pages/bookDemo/bookDemo'
 				}
 			],
 			[{
 					id: 5,
-					text: '购物',
+					text: '医疗急救卡',
 					icon: '/images/part3/shopping.png'
 				},
 				{
 					id: 6,
-					text: '游戏',
+					text: '会议邀请函',
 					icon: '/images/part3/games.png'
 				}
 			],
 			[{
 				id: 7,
-				text: '小程序',
+				text: '指南针',
+				icon: '/images/part3/miniProgram.png'
+			}, {
+				id: 8,
+				text: '手绘时钟',
 				icon: '/images/part3/miniProgram.png'
 			}],
 		]

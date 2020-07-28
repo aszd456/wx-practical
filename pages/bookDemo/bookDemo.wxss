@@ -1,0 +1,41 @@
+.loading-container {
+	height: 100vh;
+	background-color: silver;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+progress {
+	width: 80%;
+}
+
+.booke-container {
+	display: flex;
+	flex-direction: row;
+	/**允许换行**/
+	flex-wrap: wrap;
+}
+
+.box {
+	width: 50%;
+	height: 400rpx;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+}
+
+image {
+	width: 200rpx;
+	height: 300rpx;
+}
+
+text {
+	max-width: 380rpx;
+	text-align: center;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis
+}

@@ -5,6 +5,7 @@
       "pages/numberGuess/numberGuess",
       "pages/weather/weather",
       "pages/videoDemo/videoDemo",
+      "pages/bookDemo/bookDemo",
       "pages/logs/logs"
    ],
    "window": {
