@@ -4,6 +4,7 @@
       "pages/wxWallet/wxWallet",
       "pages/numberGuess/numberGuess",
       "pages/weather/weather",
+      "pages/videoDemo/videoDemo",
       "pages/logs/logs"
    ],
    "window": {

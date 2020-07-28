@@ -22,8 +22,9 @@ Page({
 			],
 			[{
 					id: 3,
-					text: '看一看',
-					icon: '/images/part3/topStories.png'
+					text: '电影预告片',
+					icon: '/images/part3/topStories.png',
+					url:'/pages/videoDemo/videoDemo'
 				},
 				{
 					id: 4,
