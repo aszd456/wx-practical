@@ -1,0 +1,28 @@
+.container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-around;
+	color: #A46248;
+}
+
+image {
+	width: 80%;
+}
+
+.status {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.bigTxt {
+	font-size: 30pt;
+	margin: 15rpx;
+}
+
+.smallTxt {
+	font-size: 20pt;
+	margin: 15rpx;
+}

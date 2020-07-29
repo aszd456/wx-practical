@@ -1,18 +1,28 @@
 {
-   "pages": [
-      "pages/index/index",
-      "pages/wxWallet/wxWallet",
-      "pages/numberGuess/numberGuess",
-      "pages/weather/weather",
-      "pages/videoDemo/videoDemo",
-      "pages/bookDemo/bookDemo",
-      "pages/logs/logs"
-   ],
-   "window": {
-      "backgroundTextStyle": "light",
-      "navigationBarBackgroundColor": "#fff",
-      "navigationBarTitleText": "发现",
-      "navigationBarTextStyle": "black"
-   },
-   "sitemapLocation": "sitemap.json"
+	"pages": [
+		"pages/index/index",
+		"pages/wxWallet/wxWallet",
+		"pages/numberGuess/numberGuess",
+		"pages/weather/weather",
+		"pages/videoDemo/videoDemo",
+		"pages/bookDemo/bookDemo",
+		"pages/firstaidCard/firstaidCard",
+      "pages/aidCardForm/aidCardForm",
+      "pages/invitationDemo/invitationDemo",
+      "pages/compassDemo/compassDemo",
+      "pages/clockDemo/clockDemo",
+		"pages/logs/logs"
+	],
+	"window": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "发现",
+		"navigationBarTextStyle": "black"
+	},
+	"permission":{
+		"scope.userLocation":{
+			"desc": "你的位置信息将用于小程序位置接口的效果展示"
+		}
+	},
+	"sitemapLocation": "sitemap.json"
 }

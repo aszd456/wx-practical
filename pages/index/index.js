@@ -36,22 +36,26 @@ Page({
 			[{
 					id: 5,
 					text: '医疗急救卡',
-					icon: '/images/part3/shopping.png'
+					icon: '/images/part3/shopping.png',
+					url: '/pages/firstaidCard/firstaidCard'
 				},
 				{
 					id: 6,
 					text: '会议邀请函',
-					icon: '/images/part3/games.png'
+					icon: '/images/part3/games.png',
+					url: '/pages/invitationDemo/invitationDemo'
 				}
 			],
 			[{
 				id: 7,
 				text: '指南针',
-				icon: '/images/part3/miniProgram.png'
+				icon: '/images/part3/miniProgram.png',
+				url: '/pages/compassDemo/compassDemo'
 			}, {
 				id: 8,
 				text: '手绘时钟',
-				icon: '/images/part3/miniProgram.png'
+				icon: '/images/part3/miniProgram.png',
+				url: '/pages/clockDemo/clockDemo'
 			}],
 		]
 	},

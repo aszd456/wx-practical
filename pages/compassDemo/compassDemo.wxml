@@ -1,0 +1,8 @@
+<view class="container">
+	<image src="/images/compass.jpg" mode="widthFix" style="transform: rotate({{rotate}}deg)"></image>
+	<view class="status">
+		<text class="bigTxt">{{degree}}° {{direction}}</text>
+		<text class="smallTxt">北纬{{lat}}东经{{lon}}</text>
+		<text class="smallTxt">海拔{{alt}}米</text>
+	</view>
+</view>

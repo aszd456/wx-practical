@@ -1,0 +1,5 @@
+<view class="container">
+	<text>My Clock</text>
+	<canvas canvas-id="clockCanvas"></canvas>
+	<text>{{h}}:{{m}}:{{s}}</text>
+</view>

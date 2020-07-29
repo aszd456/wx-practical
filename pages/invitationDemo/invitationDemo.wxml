@@ -1,0 +1,30 @@
+<view class='box'>
+	<view class='title'>会议主题</view>
+	<image src='/images/banner.jpg' style='width:100%' mode='widthFix'></image>
+	<view class='content'>
+		<text>全国高校微信小程序开发与实训课程高级研修班 \n主办方：教育部高等学校计算机类专业教学指导委员会和教育部高等学校软件工程专业教学指导委员会 \n承办方：集美大学 \n协办方：腾讯微信事业群和清华大学出版社</text>
+	</view>
+</view>
+<view class='box'>
+	<view class='title'>活动背景</view>
+	<view class='content'>
+		<text>2018年腾讯全球合作伙伴大会上，官方公布了一组数据，微信小程序用户量已经达到2亿，覆盖行业200多个。这一数据显示微信小程序在上线一年的时间内，微信小程序用户确实在呈现指数增长。正是基于此，计划举办本次微信小程序系列课程教学研讨会。</text>
+	</view>
+</view>
+<view class='box'>
+	<view class='title'>分享嘉宾</view>
+	<view class='content'>
+		<view class='bar' wx:for='{{guest}}' wx:key='id'>
+			<image class='avatar' src='{{item.avatar}}' mode='widthFix'></image>
+			<text>{{item.name}}</text>
+		</view>
+	</view>
+</view>
+<view class='box'>
+	<view class='title'>会议地点</view>
+	<view class='content'>
+		<text>2019年1月17日-1月20日·厦门</text>
+		<map latitude='{{lat}}' longitude='{{lon}}'></map>
+		<button bindtap='showGuide'>查看详情</button>
+	</view>
+</view>
